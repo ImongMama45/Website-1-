@@ -234,6 +234,7 @@ border-right: none;
     transform: scale(1.1);
     background-color: #ffffff;
     box-shadow: none;
+    z-index: 100;
 }
 
 /* Hide the checkboxes */
@@ -266,6 +267,7 @@ border-right: none;
 
 /* Dropdown content is hidden initially */
 .dropdown-content {
+    z-index: 30;
     position: absolute;
     top: 90%; /* Position below button */
     left: 0;
